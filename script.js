@@ -1,9 +1,11 @@
 const one = document.getElementById('one');
+const button = document.querySelectorAll('button');
 
-
-
-let inputOne = () => {
-    console.log(1);
+// let inputOne = (num1, num2) => {
+//     console.log(num1 + num2);
+// }
+let inputButton = () => {
+    console.log('click');
 }
 
-one.addEventListener('click', inputOne);
+button.addEventListener('click', inputButton);
